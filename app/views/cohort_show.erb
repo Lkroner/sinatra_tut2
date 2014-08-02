@@ -1,0 +1,7 @@
+<h1><%= cohort.name %>, <%= @cohort.city %></h1>
+
+<li>
+<%= @cohort.coaches.each do |coach| %> 
+	<p><% coach.name %>, <% coach.city%></p>
+	<% end %>
+</li>
